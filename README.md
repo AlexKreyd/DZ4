@@ -85,3 +85,7 @@ printf("\nNodes sorted by degree: ");
 
 ![Image alt](https://github.com/AlexKreyd/DZ4/blob/main/image.png)
 
+## Отображение графа:
+
+![Image alt](https://github.com/AlexKreyd/DZ4/blob/main/graph_image.png)
+
