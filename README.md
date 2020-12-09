@@ -67,7 +67,7 @@ printf("\nNodes sorted by degree: ");
 ## Структурная схема алгоритма 
 - Определение степени каждой вершины и запись их в массив
 
-![Image alt]https://github.com/AlexKreyd/DZ4/blob/main/scheme1.png)
+![Image alt](https://github.com/AlexKreyd/DZ4/blob/main/scheme1.png)
 
 - Определение частоты степеней вершин, запись их в массив и вывод
 
