@@ -21,7 +21,7 @@ int* degrees = (int*) malloc(max_node * sizeof(int));
     }
     
 ```
-- Определение частоты степеней вершин, запись их в массив и их вывод
+- Определение частоты степеней вершин, запись их в массив и вывод
 ``` c
 int* frequency = (int*) malloc(max_node * sizeof(int)); 
     for(int i = 0; i <= max_node; ++i){
@@ -64,3 +64,4 @@ printf("\nNodes sorted by degree: ");
         }
     }
 ```
+## Структурная схема алгоритма 
