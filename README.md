@@ -77,3 +77,7 @@ printf("\nNodes sorted by degree: ");
 
 ![Image alt](https://github.com/AlexKreyd/DZ4/blob/main/scheme3.png)
 
+
+- Сортировка подсчетом и вывод отсортированных по степеням вершин
+![Image alt](https://github.com/AlexKreyd/DZ4/blob/main/scheme4.png)
+
