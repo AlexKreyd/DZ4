@@ -65,3 +65,4 @@ printf("\nNodes sorted by degree: ");
     }
 ```
 ## Структурная схема алгоритма 
+![Image alt](https://github.com/AlexKreyd/DZ4/blob/main/scheme1.png)
