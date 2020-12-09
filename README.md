@@ -31,13 +31,5 @@ int* frequency = (int*) malloc(max_node * sizeof(int));
     for(int i = 1; i <= max_node; ++i){
         frequency[degrees[i]]++;
     }
-    printf("\n");
-
-
-    printf("Frequency of degrees:\n");
-    for(int i = 0; i <= max_node; ++i){
-        if(frequency[i] != 0)
-            printf("Degree = %d, frequency = %d\n",i, frequency[i]);
-    }
     
 ```
