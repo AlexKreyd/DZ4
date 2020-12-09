@@ -21,7 +21,7 @@ int* degrees = (int*) malloc(max_node * sizeof(int));
     }
     
 ```
-- Определение частоты степеней вершин и запись их в массив
+- Определение частоты степеней вершин, запись их в массив и их вывод
 ``` c
 int* frequency = (int*) malloc(max_node * sizeof(int)); 
     for(int i = 0; i <= max_node; ++i){
@@ -32,4 +32,35 @@ int* frequency = (int*) malloc(max_node * sizeof(int));
         frequency[degrees[i]]++;
     }
     
+    printf("Frequency of degrees:\n");
+    for(int i = 0; i <= max_node; ++i){
+        if(frequency[i] != 0)
+            printf("Degree = %d, frequency = %d\n",i, frequency[i]);
+    }
+    
+```
+- Создание массива, в котором вершины сгруппированы по степеням
+``` c
+int nodes_grouped[100][100];
+    for(int i =0; i<= max_degree; ++i){ 
+        int j =0;
+        for(int x =1; x <= max_node; ++x){
+            if(degrees[x] == i){
+                nodes_grouped[i][j] = x;
+                j++;
+            }
+        }
+    }
+```
+
+- Сортировка подсчетом и вывод отсортированных по степеням вершин
+``` c
+printf("\nNodes sorted by degree: ");
+    for(int i = 0; i<= max_node; ++i){
+        if(frequency[i] != 0){
+            for(int j =0; j< frequency[i]; ++j){
+                printf("%d ",nodes_grouped[i][j]);
+            }
+        }
+    }
 ```
